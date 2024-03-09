@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head>
+
+<body>
+    <div id="signupcontainer">
+        <div id="signuptextcontainer">
+            <div id="signuptext">
+                <h1>Welcome to Codeial</h1>
+                <span>This codeial is like a social mnedia. This is build for eduaction purpose developed while learning.
+                    Donot enter sensative information</span>
+            </div>
+        </div>
+        <div id="signupform">
+            <form action="/user/signup" method="post">
+                <h1>sign up</h1>
+                <input type="text" placeholder="Username" id="name" name="name" required>
+                <input type="email" placeholder="abc@gmail.com" id="email" name="email" required>
+                <input type="password" placeholder="enter password" id="password" name="password" required>
+                <input type="password" placeholder="Confirm password" id="confirm_password" name="confirm_password"
+                    required>
+                <input type="submit" id="formbutton" placeholder="signup">
+                <a href="/user/signinpage">Already have account</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
